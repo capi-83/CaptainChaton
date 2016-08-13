@@ -7,7 +7,7 @@ spl_autoload_register(function ($class) {
 });
 
 $discord = new \Discord\Discord([
-    'token' => 'MjEwMDkxMjgwMjQ2NjM2NTQ1.CoK2pQ.mDptJPC92lnQ39fm4U4BE4kE51U',
+    'token' => '',
 ]);
 
 
