@@ -46,7 +46,7 @@ Class WarcraftLog {
      * 
      *  @bool boolean 
      */
-    CONST KEY = 'd5fbce84b33c81a07dc2d2d3de495a02';
+    CONST KEY = '';
     
     private $_zone = array(3 => 'Challenge Modes',
                             4 => 'Throne of Thunder',
