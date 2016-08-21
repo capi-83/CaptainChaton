@@ -37,13 +37,13 @@ Class Msg {
     public function getBonjour($user)
     {
         echo "REPONSE : bonjour !", PHP_EOL;
-        return "Salut à toi {$user}! Alors marin d'eau douce, au poil ?! ! ";
+        return "Salut à toi {$user}! Alors marin d'eau douce, au poil ?! ";
     }
     
     public function getShaping($user)
     {
         echo "REPONSE : shapong !", PHP_EOL;
-        return "Alors,  {$user} shapong ?! !";
+        return "Alors, {$user} shapong ?! !";
     }
     
     public function getInfosMystra()
@@ -56,41 +56,41 @@ Class Msg {
     
     public function getMalade()
     {
-        return "Tu serais pas un peu malade !!! \n\r";
+        return "Et mignon, je sais que je parais encore jeune et fringant mais personne n'a une mémoire pareille... \n\r";
     }
     
     public function getRandText($randBot,$randUser,$user)
     {
-        return  "Cap'tain Chaton obtient $randBot\n".
-                $user." Obtient $randUser \n\r";
+        return  "Cap'tain Chaton fait un $randBot\n".
+                $user." fait un $randUser \n\r";
     }
     
     public function getRandWin()
     {
-        return "Et Mignon ! Surveille tes arrières!  Si c'est une mutinerie que tu fomentes, tu pourrais bien finir par nourrir les poissons. Morbleu ! ";
+        return "Et Mignon ! Surveille tes arrières! Si c'est une mutinerie que tu fomentes, tu pourrais bien finir par nourrir la poiscaille. Morbleu ! ";
     }
     
     public function getRandLoose()
     {
         return "Et bien mon mignon, il semblerait que tout c'que t'arrives à gagner c'est le droit de récurer le pont ! "
-              . "Allez, P'ti-Bras, oublie pas ta brosse à dent et que ça brille, Morbleu !";
+              . "Allez, Crevette, oublie pas ta brosse à dent et que ça brille, Morbleu !";
     }
     
     public function getProgress()
     {
-        return "Liens pour update le progress de la guilde : ";
+        return "Si tu veux update le progress de la guilde mon mignon, c'est par là : ";
     }
     
     public function getUndefined()
     {
-        return "je ne comprend pas de quoi tu parle ! essaye le !help :)";
+        return "Et mon mignon, les embruns te font pas que du bien ! si t'as un trou de mémoire, pense au !help, hein j'dis ça, j'dis rien :)";
     }
     
     public function getJokeChuckNorris()
     {
         return   array( '%s a déjà compté jusqu´à l´infini. Deux fois. ',
                         'Certaines personnes portent un pyjama Superman. Superman porte un pyjama de %s. ',
-                        '%s ne se mouille pas, c´est l´eau qui se %s. ',
+                        '%s ne se mouille pas, c´est l´eau qui se %sise. ',
                         'Le calendrier de %s passe du 31 mars au 2 avril. Personne ne fait de blague à %s.',
                         'Quand %s fait une prise de sang, il refuse la seringue et demande un fusil à pompe et une bassine. ',
                         'Les extra-terrestres existent : ils attendent juste que %s meurt avant de passer à l´attaque.',
@@ -118,7 +118,7 @@ Class Msg {
     
     public function getNoLog()
     {
-       return "Vérifie ta demande mon chaton! Si elle est exacte, aucun log ne correspond à ta demande sur WarcraftLog .";
+       return "Ha mon mignon, vérifie ta demande! Si elle est exacte, c'est qu'aucun log ne correspond à ta demande sur WarcraftLog .";
     }
     
     public function getProgressClassement($eu,$world,$serveur)
